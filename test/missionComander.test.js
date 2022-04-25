@@ -1,8 +1,8 @@
-const MissionComander = require('./../app/missionCommander') //Importando Clase
+const MissionCommander = require('./../app/missionCommander') //Importando Clase
 
-describe("Esto es una suite de pruebas", () => {
-    test('Caso de prueba 1', () => {
-        const result = 1 + 2
+describe("Unit test for Mission Commander Class", () => {
+    test('1) Create mission comander object', () => {
+        const myMissionCommander = new MissionCommander()
         expect(result).toBe(3);
     });
 })
