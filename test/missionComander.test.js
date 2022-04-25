@@ -1,4 +1,5 @@
-const MissionComander = require('./../app/missionCommander')
+const MissionComander = require('./../app/missionCommander') //Importando Clase
+
 describe("Esto es una suite de pruebas", () => {
     test('Caso de prueba 1', () => {
         const result = 1 + 2
